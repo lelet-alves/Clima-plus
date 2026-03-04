@@ -1,16 +1,42 @@
-# React + Vite
+# Clima Plus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o projeto
 
-Currently, two official plugins are available:
+O Clima Plus é uma aplicação desenvolvida em React que permite consultar o clima de uma cidade em tempo real.
+O projeto consome a API OpenWeather e exibe informações como temperatura, sensação térmica, umidade e vento.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esse projeto foi desenvolvido como atividade avaliativa da disciplina de Programação para Web II.
 
-## React Compiler
+## Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* React Router DOM
+* Axios
+* CSS
 
-## Expanding the ESLint configuration
+## Como funciona
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. O usuário digita o nome da cidade.
+2. A aplicação faz uma requisição para a API.
+3. Se a cidade for encontrada, os dados aparecem na tela.
+4. Caso contrário, é exibida uma mensagem de erro.
+5. A navegação acontece sem recarregar a página (SPA).
+
+## Organização do projeto
+
+* Components → Componentes reutilizáveis
+* Pages → Páginas da aplicação
+* Services → Arquivo responsável pela API
+* Styles → Arquivo único de CSS
+
+## Como rodar o projeto
+
+bash
+npm install
+npm run dev
+
+## Autora
+
+Ana Letícia Alves Bezerra
+Sistemas de Informação
