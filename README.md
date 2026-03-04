@@ -32,10 +32,10 @@ Esse projeto foi desenvolvido como atividade avaliativa da disciplina de Program
 
 ## Como rodar o projeto
 
-*bash
-*npm install
-*npm run dev
-
+* bash
+* npm install
+* npm run dev
+  
 ## Autora
 
 Ana Letícia Alves Bezerra
