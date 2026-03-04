@@ -38,5 +38,4 @@ Esse projeto foi desenvolvido como atividade avaliativa da disciplina de Program
   
 ## Autora
 
-Ana Letícia Alves Bezerra
-Sistemas de Informação
+Ana Letícia Alves Bezerra / Sistemas de Informação
